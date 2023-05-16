@@ -83,6 +83,7 @@ header > aside{
     padding: 5px 2px 0px 2px;
     margin: 2px auto;
     min-width: 300px;
+    font-variant: small-caps;
     
 }
 
@@ -134,39 +135,6 @@ main a:hover{
     background-color: var(--cor0);
 }
 
-.post{
-    box-sizing: border-box;
-    margin: 15px auto;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 1px #0000003b;
-}
-
-.display-imagem{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.videos{
-    
-    margin: 0px 2px 30px 2px;
-    padding: 20px;
-    padding-bottom: 50%;
-    position: relative;
-}
-
-.videos >video{
-    position: absolute;
-    top: 5%;
-    left: 10%;
-    width: 80%;
-    height: 90%;
-}
-
 .subtitulo{
     color: var(--cor0);
     text-align: center;
@@ -194,6 +162,41 @@ main a:hover{
     line-height: 1.5;
 
 }
+.post{
+    box-sizing: border-box;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #0000003b;
+}
+
+.display-imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.videos{
+    
+    margin: 0px 2px 30px 2px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.videos >video{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 90%;
+}
+
+
 
 .feito-por{
     padding: 0px 3px;
