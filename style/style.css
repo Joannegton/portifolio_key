@@ -8,8 +8,8 @@
 
 :root{
     --cor0: #025939;
-    --cor1: #04cc83;
-    --cor2: #04cc83bb;
+    --cor1: #2ad100;
+    --cor2: #077a0394;
     --cor3: #577252;
 
 }
@@ -22,7 +22,7 @@
 a.externo::after{
     content: '\00A0\1F517';
 }
-body{
+html, body{
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(120deg, rgba(0, 255, 42, 0.082), rgba(1, 82, 19, 0.377));/*Bom ter também, pq vai que a imagem demora a carregar*/
@@ -60,23 +60,23 @@ body{
 header{
     padding: 0px 0px 4px 0px;
     text-align: center;
-    background-image: linear-gradient(to bottom, rgba(0, 255, 42, 0.897), rgba(79, 255, 117, 0.781));
+    background-color: #04cc83f3;
     min-height: 80px;
     
 }
 
 header > aside{
     display: inline;
-    padding: 0px 70px 0px 78px;
+    padding: 0px 100px 0px 108px;
     
     font-family: font-tattoo, Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 #titulo{
     font-family: font-tattoo, Arial, Helvetica, sans-serif;
-    color: green;
-    font-size: 2.5em;
+    color: rgb(0, 104, 0);
+    font-size: 4em;
     font-weight: bolder;
     text-shadow: 1px 1px 2px #000000 ;
     text-align: center;
@@ -89,23 +89,22 @@ header > aside{
 
 .menu{
     text-align: center;
-    box-sizing: border-box;
     margin: 10px auto 0px;
     box-shadow: 0px 1px 1px #00000063;
 }
 .menu > a{
     font-family: font-tattoo,'Courier New', Courier, monospace;
-    font-size: 1em;
+    font-size: 1.3em;
     text-align: center;
     padding: 2px 3px 2px 3px;
     text-decoration: none;
-    color: rgba(223, 252, 217, 0.89);
+    color: rgb(0, 85, 0);
    
     
 }
 .menu > a:hover{
-    color: var(--cor0);
-    background-color: var(--cor1);
+    color: #04cc83f3;
+    background-color: rgb(0, 104, 0);
     border-radius: 5px;
     transition-duration: 0.3s;
 }
@@ -114,11 +113,11 @@ main{
     min-width: 320px;
     max-width: 800px;
     box-sizing: border-box;
-    margin: 15px auto;
+    margin: 15px auto 3px;
     border-radius: 10px;
     padding: 10px; 
-    background-color: #567958e5;
-    box-shadow: 5px 5px 15px #577252;
+    background-color: #567958f6;
+    box-shadow: 2px 2px 3px #00000073;
 }
 
 main a{
@@ -136,21 +135,24 @@ main a:hover{
 }
 
 .subtitulo{
-    color: var(--cor0);
+    font-family: font-tattoo, Arial, Helvetica, sans-serif;
+    color: var(--cor1);
     text-align: center;
     font-weight: bolder;
-    font-size: 1.5em;
-    background-image: linear-gradient(#04cc8349, transparent);
+    font-size: 2.2em;
+    background-color: #00ff150c;
+    text-shadow: 1px 1px 1px black;
+    font-variant: small-caps;
 }
 .titulo3{
     font-family: font-tattoo, Arial, Helvetica, sans-serif;
-    color: var(--cor0);
+    color: var(--cor1);
     text-justify: auto;
     text-align: left;
-    font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--cor2), transparent);
+    font-size: 1.4em;
+    background-image: linear-gradient(to right, var(--cor0), transparent);
     text-indent: 15px;
-    
+    font-variant: small-caps;
 
 }
 
@@ -163,8 +165,7 @@ main a:hover{
 
 }
 .post{
-    box-sizing: border-box;
-    margin: 15px auto;
+    margin: 5px auto 20px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px #0000003b;
@@ -175,8 +176,8 @@ main a:hover{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     
 }
 
@@ -214,8 +215,11 @@ main a:hover{
 
 .redes-sociais{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: font-tattoo, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    
 }
+
 
 
 footer{
