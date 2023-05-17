@@ -9,7 +9,7 @@
 :root{
     --cor0: #025939;
     --cor1: #04cc83;
-    --cor2: #04cc8381;
+    --cor2: #04cc83bb;
     --cor3: #577252;
 
 }
@@ -220,8 +220,8 @@ main a:hover{
 
 footer{
     text-align: center;
-    background-image: linear-gradient(to right, var(--cor2), transparent);
-    padding: 10px 0px 5px;
+    background-color: #04cc83e5;
+    padding: 10px;
 }
 footer a{
     text-decoration: none;
