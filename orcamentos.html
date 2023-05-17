@@ -5,27 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>Orçamento</title>
 
 </head>
 <body>
-    <form action="bancodados.php" method="post">
-        <label for="nome">Nome</label><br>
-        <input type="text" id="nome" name="nome"> <br>
-        <label for="tel">Whatsapp</label><br>
-        <input type="text" id="tel" name="tel"> <br>
-        <label for="cidade">Cidade</label><br>
-        <input type="text" id="cidade" name="cidade"> <br>
-        <label for="local">Local do corpo</label><br>
-        <input type="text" id="local" name="local"> <br>
-        <label for="altura">Altura da Tattoo(cm)</label><br>
-        <input type="text" id="altura" name="altura"> <br>
-        <label for="data">Data e Local</label><br>
-        <input type="datetime-local" name="data" id="data"><br>
-        <input type="button" value="Enviar" style="text-align: center;" >
 
-    </form>
+    <aside class="audio">
+		<audio src="imagens/libido blume.mpeg" preload="metadata" autoplay controls loop></audio>
+	</aside>
+
+	
+	<header>
+		<h2 id="titulo">Maleficis Tattoo</h2>
+		<aside>
+			Black work
+		</aside>
+		<aside>
+			Mystical Art
+		</aside>
+
+		<nav class="menu">
+			<a href='index.html'>Home</a>
+			<a href='flashs.html'>Flashs</a>
+			<a href='curiosidades_dicas.html'>Curiosidades e Dicas</a>
+			<a href='tatuadora.html'>Tatuadora</a>
+			<a href='orcamentos.html'>Orçamentos</a>
+		</nav>
+	</header>
+
+    <main>
+        <form action="bancodados.php" method="post">
+            <label for="nome">Nome</label><br>
+            <input type="text" id="nome" name="nome"> <br>
+            <label for="tel">Whatsapp</label><br>
+            <input type="text" id="tel" name="tel"> <br>
+            <label for="cidade">Cidade</label><br>
+            <input type="text" id="cidade" name="cidade"> <br>
+            <label for="local">Local do corpo</label><br>
+            <input type="text" id="local" name="local"> <br>
+            <label for="altura">Altura da Tattoo(cm)</label><br>
+            <input type="text" id="altura" name="altura"> <br>
+            <label for="data">Data e Local</label><br>
+            <input type="datetime-local" name="data" id="data"><br>
+            <input type="button" value="Enviar" style="text-align: center;" >
+        </form>
+    </main>
  
 
     <h3 style="text-align: right;"><a href="index.html">Pagina inicial</a></h3>

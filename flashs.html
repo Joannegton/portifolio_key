@@ -5,45 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>Flashs</title>
 </head>
 
 <body>
-    <h3 id="titulo">Flashs Disponíveis</h3> 
-    <h3 class="pagina-inicial" ><a href="index.html">Pagina inicial</a></h3>
-    <h4 class="subtitulo">O que são flashs?</h4>
-    <p class="texto">São tatuagens rápidas geralmente oferecidas pelos artistas por um valor mais em conta para divulgação do trabalho, criação de portfólio e captação de novos clientes. <br>Confira abaixo alguns <strong>Flashs Autorais</strong> disponiveis da <a href="tatuadora.html">kathellen</a> </p>
-    <picture >
-        <source media="(max-width: 750px)" srcset="imagens/flashs_autorais300.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="imagens/flashs_autorais700.png" type="image/png">
-        <img src="imagens/flashs_autorais1000.png" alt="flashs_autorais">
-    </picture>
 
-    <picture>
-        <source media="(max-width: 750px)" srcset="imagens/flashs_autorais1300.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="imagens/flashs_autorais1700.png" type="image/png">
-        <img src="imagens/flashs_autorais1.png" alt="flashs_autorais">
-    </picture>
+    <aside class="audio">
+		<audio src="imagens/libido blume.mpeg" preload="metadata" autoplay controls loop></audio>
+	</aside>
 
-    <h4 style="color: #025939; font-family: Arial, Helvetica, sans-serif; text-align: justify;">Se interessou?</h4>
-    <p class="text">Aproveite a <strong>promoção</strong> do mês. <br>Clique na imagem abaixo para marcar um agendamento.</p>
-    <a href="orcamentos.html">
-        <picture>
-            <source media="(max-width: 750px)" srcset="imagens/promocao300.png">
-            <source media="(max-width: 1050px)" srcset="imagens/promocao700.png" type="image/">
-            <img src="imagens/promocao700.png" alt="">
-        </picture>
-    </a>
+	
+	<header>
+		<h2 id="titulo">Maleficis Tattoo</h2>
+		<aside>
+			Black work
+		</aside>
+		<aside>
+			Mystical Art
+		</aside>
 
+		<nav class="menu">
+			<a href='index.html'>Home</a>
+			<a href='flashs.html'>Flashs</a>
+			<a href='curiosidades_dicas.html'>Curiosidades e Dicas</a>
+			<a href='tatuadora.html'>Tatuadora</a>
+			<a href='orcamentos.html'>Orçamentos</a>
+		</nav>
+	</header>
 
+    <main>
+        <h3 class="subtitulo">Flashs Disponíveis</h3>
 
+        <section class="post">
+            <h4 class="titulo3">O que são flashs?</h4>
+            <p class="texto">São tatuagens rápidas geralmente oferecidas pelos artistas por um valor mais em conta para divulgação do trabalho, criação de portfólio e captação de novos clientes. <br>Confira abaixo alguns <strong>Flashs Autorais</strong> disponiveis da <a href="tatuadora.html">kathellen</a> </p>
 
+            <picture class="display-imagem" >
+                <source media="(max-width: 600px)" srcset="imagens/flashs_autorais300.png" type="image/png">
+                <img src="imagens/flashs_autorais500.png" alt="flashs_autorais">
+            </picture>
 
+            <picture class="display-imagem">
+                <source media="(max-width: 600px)" srcset="imagens/flashs_autorais1300.png" type="image/png">
+                <img src="imagens/flashs_autorais1500.png" alt="flashs_autorais">
+            </picture>
+        </section>
 
+        <aside class="post">
+            <h4 class="titulo3">Se interessou?</h4>
+            <p class="texto">Aproveite a <strong>promoção</strong> do mês.</p>
+            <p class="texto"><strong>Clique</strong> na imagem abaixo para marcar um agendamento.</p>
+            <a href="orcamentos.html">
+                <picture class="display-imagem">
+                    <source media="(max-width: 600px)" srcset="imagens/promocao300.png">
+                    <img src="imagens/promocao500.png" alt="">
+                </picture>
+            </a>
+        </aside>
 
-
-    <h3 class="pagina-inicial"><a href="index.html">Pagina inicial</a></h3>
+    </main>
 
     <footer class="rodape">
 		<p>&copy;Galbarini</p> 
