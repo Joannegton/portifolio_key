@@ -67,8 +67,7 @@ header{
 
 header > aside{
     display: inline;
-    padding: 0px 100px 0px 108px;
-    
+    padding: 0px 100px 0px 50px;
     font-family: font-tattoo, Arial, Helvetica, sans-serif;
     font-size: 1.5em;
 }
@@ -208,8 +207,38 @@ main a:hover{
     
 }
 
-.pagina-inicial {
-    text-align: right;
+form{
+    text-align: center;
+    position: relative;
+    background-color: transparent;
+    left: 2vw;
+    border: 3px solid var(--cor0);
+    width: 26vw;
+    padding: 3px;
+    
+}
+form > input, label{
+    width: 25vw;
+    margin: 2px;
+}
+
+table{
+    border-collapse: collapse;
+    position: absolute;
+    left: 50vw;
+    margin-top: 7vh;
+    border: 3px solid var(--cor0);
+    background-color: #02592336;
+    text-align: center;
+
+}
+
+
+td, th{
+    border: 2px solid var(--cor0);
+    padding: 2px;
+    vertical-align: middle;
+    position: sticky;
 }
 
 

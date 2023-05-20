@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,7 +34,44 @@
 		</nav>
 	</header>
 
-    <main>
+    <main>       
+        <table >
+            <caption>Valor minimo de tatuagens</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Tamanhos</th>
+                    <th scope="col">Valor aproximado*</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tr>
+            <tr>
+                <td>5cm</td>
+                <td>R$70</td>
+            </tr>
+            <tr>
+                <td>7cm</td>
+                <td>R$100</td>
+            </tr>
+            <tr>
+                <td>10cm</td>
+                <td>R$120</td>
+            </tr>
+            <tr>
+                <td>13cm</td>
+                <td>R$150</td>
+            </tr>
+            <tr>
+                <td>15cm</td>
+                <td>R$200</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr >
+                    <td colspan="2" ><strong>*</strong><small style="font-size: 0.7em;">Valores sujeitos a alteração de acordo com o detalhamento da arte</small></td>
+                </tr>
+            </tfoot>
+        </table>
         <form action="bancodados.php" method="post">
             <label for="nome">Nome</label><br>
             <input type="text" id="nome" name="nome"> <br>
@@ -50,6 +87,11 @@
             <input type="datetime-local" name="data" id="data"><br>
             <input type="button" value="Enviar" style="text-align: center;" >
         </form>
+
+        
+
+
+
     </main>
  
 
