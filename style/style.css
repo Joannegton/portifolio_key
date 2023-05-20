@@ -242,14 +242,17 @@ td, th{
 }
 
 
+iframe{
+    height: 300px;
+    width: 200px;
+}
+
 .redes-sociais{
     text-align: center;
     font-family: font-tattoo, Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     
 }
-
-
 
 footer{
     text-align: center;
