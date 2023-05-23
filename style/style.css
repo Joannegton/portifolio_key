@@ -208,7 +208,7 @@ main a:hover{
 }
 
 form{
-    text-align: center;
+    
     position: relative;
     background-color: transparent;
     left: 2vw;
@@ -221,6 +221,8 @@ form > input, label{
     width: 25vw;
     margin: 2px;
 }
+
+
 
 table{
     border-collapse: collapse;
