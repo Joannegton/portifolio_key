@@ -49,6 +49,7 @@ main{
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    margin-top: 3px;
 }
 
 .audio{
@@ -139,7 +140,10 @@ header > div > aside{
     line-height: 1.5;
 }
 
-
+.subtitulo{
+    font-family: font_tattoo, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
 
 
 
