@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width: 768px) and (max-width: 1300px) { /* PC*/
+@media screen and (min-width: 1300px) and (max-width: 1900px) { /* PC*/
 main{
     width: 70vw;
 }

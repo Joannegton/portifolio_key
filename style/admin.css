@@ -5,7 +5,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    text-align: center;
+    
 }
 
 body{
@@ -17,21 +17,22 @@ body{
 main{
     height: 100vh;
     width: 100vw;
+    text-align: center;
 }
 
 section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: aliceblue;
     width: 230px;
-    height: 500px;
+    height: 490px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
 
+    transform: translate(-50%, -50%);
     transition: wigth 0.5s, hight 0.5s;
     transition-timing-function: ease;
 }
@@ -39,6 +40,8 @@ section#login{
 section#login > div#imagem{
     background: rgba(8, 206, 67, 0.712);
     height: 220px;
+    background-size: cover;
+    background-position: center;
 }
 .img{
     height: 220px;
@@ -53,6 +56,81 @@ section#login > div > form{
 
 div > form > h1{
     font-size: 1.5em;
-
+}
+div > p{
+    text-align: center;
+    font-size: 1.1em;
 }
 
+form > div.campo{
+    background-color: rgba(5, 145, 0, 0.781);
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    display: block;
+    margin: 5px 0px;
+    border: 2px solid rgba(5, 145, 0, 0.781);
+}
+div.campo > label{
+    display: none;
+}
+
+div.campo > span{
+    color: white;
+    font-size: 2em;
+    height: 100%;
+    width: 38px;
+    padding-left: 4px;
+}
+
+div.campo > input{
+    background-color: rgba(161, 255, 158, 0.479);
+    font-size: 1em;
+    width: calc(100% - 43px);
+    height: 100%;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+    transform: translate(01px, -10px);
+}
+
+form > input{
+    width: 80%;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1.1em;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(5, 145, 0, 0.781);
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover{
+    background-color: rgba(137, 43, 226, 0.63);
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    width: 100%;
+    height: 30px;
+    padding-top: 2px;
+    margin-top: 5px;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.678);
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+form > a.botao:hover{
+    background-color: rgba(137, 43, 226, 0.63);
+}
+
+form> a.botao > span{
+    font-size: 0.9em;
+}
