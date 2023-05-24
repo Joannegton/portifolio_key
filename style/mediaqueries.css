@@ -1,11 +1,7 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 1024px) { /* Tablet*/
 
-    
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1300px) { /* PC*/
+@media screen and (min-width: 768px) and (max-width: 1300px) { /* PC*/
 main{
     width: 70vw;
 }
@@ -22,25 +18,31 @@ main{
     margin-left: 10vw;
     font-size: 2.2em;
 }
+.material-icons{
+    display: none;
+}
+.menu{
+    display: block;
+}
+.menu > ul > li {
+    display: inline-block;
+}
+
+.menu > ul > li > a{
+    border: 0px;
+}
+
+.menu > ul > li > a:hover{
+    border: 2px solid black;
+    padding: 3px;
+}
+
+
+
+
+
+
 
 }
 
-@media screen and (min-width: 1300px) {
-/* Telas grandes*/
-main{
-    width: 70vw;
-}
-#titulo{
-    font-size: 5em;
-}
-.black{
-    text-align: left;
-    margin-right: 10vw;
-    font-size: 2.5em;
-}
-.mystical{
-    text-align: right;
-    margin-left: 10vw;
-    font-size: 2.5em;
-}
-}
+
