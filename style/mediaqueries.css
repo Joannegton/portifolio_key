@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* Tablet*/
+
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* PC*/
+main{
+    width: 70vw;
+}
+#titulo{
+    font-size: 5em;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+/* Telas grandes*/
+main{
+    width: 70vw;
+}
+#titulo{
+    font-size: 5em;
+}
+
+}
