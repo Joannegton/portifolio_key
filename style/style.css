@@ -17,7 +17,7 @@ High-res laptop or desktop: 1920 x 1080.*/
 
 :root{
     --verde_escuro: #0E3A25;
-    --verde_medio: #567958f6;
+    --verde_medio: #399b3ef6;
     --verde_claro: #2ad100d8;
     --cinza_claro: #E7E5E8;
     --cinza_medio: #b3b3b5c9;
@@ -55,10 +55,47 @@ header{
     background-color: var(--verde_claro);
     padding-bottom: 5px;
     min-height: 100px;
+    display: block;
 }
 #titulo{
     color: var(--verde_escuro);
     font-family: font_tattoo, Arial, Helvetica, sans-serif;
     font-size: 3em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.658);
+}
+
+header > aside{
+    font-family: font_tattoo, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    display: inline-flex;
+    
+}
+.black{
+    text-align: left;
+    margin-right: 5vw;
+}
+.mystical{
+    text-align: right;
+    margin-left: 5vw;
+}
+
+.menu{
+    display: block;
+}
+.menu > ul{
+    list-style-type: none;
+}
+.menu > ul > li > a{
+    display: block;
+    background-color: var(--verde_escuro);
+    color: var(--verde_claro);
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 5px;
+    border-top: 2px solid var(--cinza_claro);
+}
+.menu > ul > li > a:hover {
+    background-color: var(--verde_claro);
+    color: var(--verde_escuro);
+    text-decoration: underline;
 }
