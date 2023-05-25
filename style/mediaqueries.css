@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 1366px) and (max-width: 1900px) { /* PC*/
 main{
-    width: 70vw;
+    width: 60vw;
 }
 #titulo{
     font-size: 4em;
@@ -39,8 +39,26 @@ main{
 
 
 
+form{
+    position: relative;
+    background-color: rgba(5, 145, 0, 0.781);
+    border: 3px solid var(--verde_escuro);
+    border-radius: 5px;
+    width: 45%;
+    margin: 5px 0px;
+}
 
-
+table{
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    margin-top: 7vh;
+    border: 3px solid var(--verde_escuro);
+    background-color: #02592336;
+    text-align: center;
+    
+}
 
 
 }
