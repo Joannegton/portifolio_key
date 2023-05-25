@@ -36,6 +36,7 @@ High-res laptop or desktop: 1920 x 1080.*/
 html, body{
     background: var(--verde_escuro) url(../imagens/fundo_teste.jpg) left top repeat fixed;
     height: 100vh;
+    width: auto;
 }
 
 a.externo::after{
@@ -163,7 +164,7 @@ header > div > aside{
 .post{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
     margin-top: 10px;
-    padding: 3px 3px 23px;
+    padding: 3px 3px 25px;
     background-color: #0e3a2538;
     position: relative;
     
@@ -184,11 +185,33 @@ header > div > aside{
     left: 63%;
 }
 
-
+.videos > video{
+    height: 400px;
+    margin: 20px auto 3px;
+    
+}
 
 
 .maps{
     width: 100%;
     height: 100%;
     border-radius: 5px;
+    margin-top: 5px;
+}
+
+.redes-sociais{
+    height: 83px;    
+    background-color: #0e3a2538;
+}
+.redes-sociais > p{
+    font-size: 1.3em;
+    font-family: font_tattoo, Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    color: white;
+
+
+}
+
+.redes-sociais > p > a > img{
+
 }
