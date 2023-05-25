@@ -164,9 +164,8 @@ header > div > aside{
 .post{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
     margin-top: 10px;
-    padding: 3px 3px 25px;
+    padding: 3px 3px 10px;
     background-color: #0e3a2538;
-    position: relative;
     
 }
 .display-imagem {/*mudar tamanho das imagens*/
@@ -181,8 +180,8 @@ header > div > aside{
     border: 1px solid black;
     text-align: center;
     width: 160px;
-    position: absolute;
-    left: 63%;
+    margin-top: 5px;
+    
 }
 
 .videos > video{
