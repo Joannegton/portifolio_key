@@ -211,8 +211,27 @@ header > div > aside{
 }
 
 footer{
+    margin-top: 2px;
     background-color: var(--verde_claro);
     text-align: center;
-    font-family: font_tattoo, Arial, Helvetica, sans-serif;
 }
+
+footer > p{
+    font-family: font_tattoo, Arial, Helvetica, sans-serif;
+
+}
+footer > p > a{
+    text-decoration: none;
+    color: #0E3A25;
+    background-color: var(--verde_medio);
+
+}
+
+footer > p > a:hover{
+    text-decoration: none;
+    color: var(--verde_medio);
+    background-color: #0E3A25;
+}
+
+
 
