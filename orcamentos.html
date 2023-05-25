@@ -83,20 +83,36 @@
             </table>
             
             <form action="bancodados.php" method="post" autocomplete="on">
-                <p><label for="nome" >Nome</label></p>
-                <input type="text" id="nome" name="nome" autocomplete="name" placeholder="Wellington Joanne"> <br>
-                <p><label for="tel">Whatsapp</label></p>
-                <input type="text" id="tel" name="tel" autocomplete="tel" placeholder="ex: 1191234-5678"><br>
-                <p><label for="cidade">Cidade</label></p>
-                <input type="text" id="cidade" name="cidade" autocomplete="address-level3" placeholder="ex: taboão da Serra"> <br>
-                <p><label for="local">Local do corpo</label></p>
-                <input type="text" id="local" name="local" autocomplete="off" placeholder="ex: Antebraço"> <br>
-                <p><label for="altura">Altura da Tattoo(cm)</label></p>
-                <input type="text" id="altura" name="altura" autocomplete="off" placeholder="ex: 10cm"><br>
-                <p><label for="data">Data</label></p>
-                <input type="datetime-local" name="data" id="data" autocomplete="off"><br>
-                <p><label for="arquivo">Insira a imagem</label></p>
-                <input type="file" name="arquivo" id="arquivo">
+
+                <div class="campo">
+                    <label for="nome" >Nome</label>
+                    <input type="text" id="nome" name="nome" autocomplete="nome" placeholder="Wellington Joanne" autocomplete='on'>
+                </div>
+                <div class="campo">
+                    <label for="tel">Whatsapp</label>
+                    <input type="text" id="tel" name="tel" autocomplete="tel" placeholder="ex: 1191234-5678">
+                </div>
+                <div class="campo">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" autocomplete="address-level3" placeholder="ex: taboão da Serra"> 
+                </div>
+                <div class="campo">
+                    <label for="local">Local do corpo</label>
+                    <input type="text" id="local" name="local" autocomplete="off" placeholder="ex: Antebraço"> 
+                </div>
+                <div class="campo">
+                    <label for="altura">Altura da Tattoo(cm)</label>
+                    <input type="text" id="altura" name="altura" autocomplete="off" placeholder="ex: 10cm">
+                </div>
+                <div class="campo">
+                    <label for="data">Data</label>
+                    <input type="datetime-local" name="data" id="data" autocomplete="off">
+                </div>
+                <div class="campo">
+                    <label for="arquivo">Insira uma imagem</label>
+                    <input type="file" name="arquivo" id="arquivo">
+                </div>
+
                 <input type="submit" value="Enviar" style="text-align: center;" >
             </form>
         </section>

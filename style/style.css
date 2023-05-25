@@ -233,27 +233,61 @@ footer > p > a:hover{
     color: var(--verde_medio);
     background-color: #0E3A25;
 }
-
-
+#orcamento{
+    position: relative;
+}
 
 
 form{
-    
     position: relative;
-    background-color: transparent;
-    left: 2vw;
+    background-color: rgba(5, 145, 0, 0.781);
     border: 3px solid var(--verde_escuro);
-    width: 40%;
-    padding: 3px;
-    
-}
-form > input, label{
-    width: 25vw;
-    margin: 2px;
+    border-radius: 5px;
+    width: 45%;
+    margin: 5px 0px;
 }
 
-#orcamento{
-    position: relative;
+.campo > label{
+    font-size: 1em;
+    font-family: font_tattoo, Arial, Helvetica, sans-serif;
+    margin: 5px 0px 2px 2px;
+    display: block;
+    text-align: left;
+    width: 98%;
+
+
+}
+
+.campo > input{
+    background-color:  rgba(245, 245, 245, 0.548);
+    color: black;
+    font-size: 1em;
+    width: 98%;
+    height: 100%;
+    border-radius: 5px;
+    border: 0px;
+    padding: 3px;
+}
+
+.campo > input:focus-within{
+    background-color: rgba(211, 233, 252, 0.829);
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1.1em;
+    width: 100%;
+    background-color: var(--cinza_medio);
+    border: none;
+    border-radius: 5px;
+    font-family: font_tattoo;
+    color: var(--verde_escuro);
+    margin: 2px 0px;
+}
+form > input[type=submit]:hover{
+    background-color: #0E3A25;
+    font-family: font_tattoo;
+    color: var(--cinza_medio);
 }
 
 table{
@@ -265,7 +299,7 @@ table{
     border: 3px solid var(--verde_escuro);
     background-color: #02592336;
     text-align: center;
-
+    
 }
 
 
@@ -274,6 +308,7 @@ td, th{
     padding: 2px;
     vertical-align: middle;
     position: sticky;
+    
 }
 
 
