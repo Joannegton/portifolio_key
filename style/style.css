@@ -236,3 +236,45 @@ footer > p > a:hover{
 
 
 
+
+form{
+    
+    position: relative;
+    background-color: transparent;
+    left: 2vw;
+    border: 3px solid var(--verde_escuro);
+    width: 40%;
+    padding: 3px;
+    
+}
+form > input, label{
+    width: 25vw;
+    margin: 2px;
+}
+
+#orcamento{
+    position: relative;
+}
+
+table{
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    margin-top: 7vh;
+    border: 3px solid var(--verde_escuro);
+    background-color: #02592336;
+    text-align: center;
+
+}
+
+
+td, th{
+    border: 2px solid var(--verde_escuro);
+    padding: 2px;
+    vertical-align: middle;
+    position: sticky;
+}
+
+
+

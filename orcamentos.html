@@ -43,62 +43,63 @@
 	</header>
 
     <main>       
-        <table >
-            <caption>Valor minimo de tatuagens</caption>
-            <thead>
+        <section id="orcamento">
+            <table >
+                <caption>Valor minimo de tatuagens</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Tamanhos</th>
+                        <th scope="col">Valor aproximado*</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tr>
                 <tr>
-                    <th scope="col">Tamanhos</th>
-                    <th scope="col">Valor aproximado*</th>
+                    <td>5cm</td>
+                    <td>R$70</td>
                 </tr>
-            </thead>
-            <tbody>
-            </tr>
-            <tr>
-                <td>5cm</td>
-                <td>R$70</td>
-            </tr>
-            <tr>
-                <td>7cm</td>
-                <td>R$100</td>
-            </tr>
-            <tr>
-                <td>10cm</td>
-                <td>R$120</td>
-            </tr>
-            <tr>
-                <td>13cm</td>
-                <td>R$150</td>
-            </tr>
-            <tr>
-                <td>15cm</td>
-                <td>R$200</td>
-            </tr>
-            </tbody>
-            <tfoot>
-                <tr >
-                    <td colspan="2" ><strong>*</strong><small style="font-size: 0.7em;">Valores sujeitos a alteração de acordo com o detalhamento da arte</small></td>
+                <tr>
+                    <td>7cm</td>
+                    <td>R$100</td>
                 </tr>
-            </tfoot>
-        </table>
-        
-        <form action="bancodados.php" method="post" autocomplete="on">
-            <p><label for="nome" >Nome</label></p>
-            <input type="text" id="nome" name="nome" autocomplete="name" placeholder="Wellington Joanne"> <br>
-            <p><label for="tel">Whatsapp</label></p>
-            <input type="text" id="tel" name="tel" autocomplete="tel" placeholder="ex: 1191234-5678"><br>
-            <p><label for="cidade">Cidade</label></p>
-            <input type="text" id="cidade" name="cidade" autocomplete="address-level3" placeholder="ex: taboão da Serra"> <br>
-            <p><label for="local">Local do corpo</label></p>
-            <input type="text" id="local" name="local" autocomplete="off" placeholder="ex: Antebraço"> <br>
-            <p><label for="altura">Altura da Tattoo(cm)</label></p>
-            <input type="text" id="altura" name="altura" autocomplete="off" placeholder="ex: 10cm"><br>
-            <p><label for="data">Data</label></p>
-            <input type="datetime-local" name="data" id="data" autocomplete="off"><br>
-            <p><label for="arquivo">Insira a imagem</label></p>
-            <input type="file" name="arquivo" id="arquivo">
-
-            <input type="submit" value="Enviar" style="text-align: center;" >
-        </form>
+                <tr>
+                    <td>10cm</td>
+                    <td>R$120</td>
+                </tr>
+                <tr>
+                    <td>13cm</td>
+                    <td>R$150</td>
+                </tr>
+                <tr>
+                    <td>15cm</td>
+                    <td>R$200</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr >
+                        <td colspan="2" ><strong>*</strong><small style="font-size: 0.7em;">Valores sujeitos a alteração de acordo com o detalhamento da arte</small></td>
+                    </tr>
+                </tfoot>
+            </table>
+            
+            <form action="bancodados.php" method="post" autocomplete="on">
+                <p><label for="nome" >Nome</label></p>
+                <input type="text" id="nome" name="nome" autocomplete="name" placeholder="Wellington Joanne"> <br>
+                <p><label for="tel">Whatsapp</label></p>
+                <input type="text" id="tel" name="tel" autocomplete="tel" placeholder="ex: 1191234-5678"><br>
+                <p><label for="cidade">Cidade</label></p>
+                <input type="text" id="cidade" name="cidade" autocomplete="address-level3" placeholder="ex: taboão da Serra"> <br>
+                <p><label for="local">Local do corpo</label></p>
+                <input type="text" id="local" name="local" autocomplete="off" placeholder="ex: Antebraço"> <br>
+                <p><label for="altura">Altura da Tattoo(cm)</label></p>
+                <input type="text" id="altura" name="altura" autocomplete="off" placeholder="ex: 10cm"><br>
+                <p><label for="data">Data</label></p>
+                <input type="datetime-local" name="data" id="data" autocomplete="off"><br>
+                <p><label for="arquivo">Insira a imagem</label></p>
+                <input type="file" name="arquivo" id="arquivo">
+                <input type="submit" value="Enviar" style="text-align: center;" >
+            </form>
+        </section>
 
         
 
