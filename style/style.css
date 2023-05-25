@@ -162,16 +162,29 @@ header > div > aside{
 
 .post{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
-    margin: 5px 0px;
+    margin-top: 10px;
+    padding: 3px 3px 23px;
     background-color: #0e3a2538;
+    position: relative;
+    
 }
 .display-imagem {/*mudar tamanho das imagens*/
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
+
+.feito-por{
+    border: 1px solid black;
+    text-align: center;
+    width: 160px;
+    position: absolute;
+    left: 63%;
+}
+
+
 
 
 .maps{
