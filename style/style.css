@@ -176,12 +176,14 @@ header > div > aside{
     margin-top: 10px;
 }
 
+div#feito{
+    text-align: center;
+}
 .feito-por{
     border: 1px solid black;
     text-align: center;
     width: 160px;
     margin-top: 5px;
-    
 }
 
 .videos > video{
