@@ -1,4 +1,13 @@
-@charset "UTF8";
+@charset "UTF-8";
+/* typical device breakpoints
+Mobile: 360 x 640.
+Mobile: 375 x 667.
+Mobile: 360 x 720.
+iPhone X: 375 x 812.
+Pixel 2: 411 x 731.
+Tablet: 768 x 1024.
+Laptop: 1366 x 768.
+High-res laptop or desktop: 1920 x 1080.*/
 
 @font-face {
     font-family: font_tattoo;
@@ -16,7 +25,193 @@
 
 }
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 html, body{
+    background: var(--verde_escuro) url(../imagens/fundo_teste.jpg) left top repeat fixed;
     height: 100vh;
+    width: auto;
+}
+
+a.externo::after{
+    content: '\00A0\1F517';
+}
+
+main{
+    background-color: var(--verde_medio);
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.audio{
+    width: 90vw;
+    text-align: center;
+    margin: auto;
+}
+aside > audio{
+    width: 90vw;
+    height: 30px;
+    margin-top: 4px;   
+}
+
+header{
+    background-color: var(--verde_claro);
+    padding-top: 10px;
+    min-height: 150px;
+    display: block;
+}
+#titulo{
+    color: var(--verde_escuro);
+    font-family: font_tattoo, Arial, Helvetica, sans-serif;
+    font-size: 3.2em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.658);
+    text-align: center;
+    font-variant: small-caps;
+}
+header > div{
+    text-align: center;
+}
+header > div > aside{
+    font-family: font_tattoo, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    display: inline-flex;
+    text-align: center;
+}
+
+.black{
+    text-align: left;
+    margin-right: 5%;
+    
+}
+.mystical{
+    text-align: right;
+    margin-left: 5%;
+}
+
+.menu{
+    display: none;
+    text-align: center;
+}
+.menu > ul{
+    list-style-type: none;
+}
+.menu > ul > li > a{
+    display: block;
+    background-color: var(--verde_escuro);
+    color: var(--verde_claro);
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 5px;
+    border-top: 2px solid var(--cinza_claro);
+    margin: 1px -1px;
+}
+.menu > ul > li > a:hover {
+    background-color: var(--verde_claro);
+    color: var(--verde_escuro);
+    text-decoration: underline;
+}
+
+.material-icons {
+    color: var(--verde_claro);
+    background-color: var(--verde_escuro);
+    text-align: center;
+    cursor: pointer;
+    margin-left: 5vw;
+    font-size: 2.3em;
+
+}
+.material-icons:hover{
+    color: var(--verde_claro);
+    background-color: var(--cinza_escuro);
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5;
+    margin: 2px 10px;
+}
+
+.subtitulo{
+    font-family: font_tattoo, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: var(--verde_escuro);
+    background-image: linear-gradient(to right, var(--cinza_medio), transparent);
+    font-variant: small-caps;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.titulo3{
+    font-family: font_tattoo, Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: var(--verde_escuro);
+    background-image: linear-gradient(to right, var(--cinza_medio), transparent);
+
+}
+
+.post{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+    margin-top: 10px;
+    padding: 3px 3px 25px;
+    background-color: #0e3a2538;
+    position: relative;
+    
+}
+.display-imagem {/*mudar tamanho das imagens*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.feito-por{
+    border: 1px solid black;
+    text-align: center;
+    width: 160px;
+    position: absolute;
+    left: 63%;
+}
+
+.videos > video{
+    height: 400px;
+    margin: 20px auto 3px;
+    
+}
+
+
+.maps{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.redes-sociais{
+    height: 83px;    
+    background-color: #0e3a2538;
+}
+.redes-sociais > p{
+    font-size: 1.3em;
+    font-family: font_tattoo, Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    color: white;
+
+
+}
+
+.redes-sociais > p > a > img{
 
 }
