@@ -1,2 +1,22 @@
 @charset "UTF8";
 
+@font-face {
+    font-family: font_tattoo;
+    src: url(../fontes/MiltonianTattoo-Regular.ttf);
+}
+/* mobile first */
+
+:root{
+    --verde_escuro: #0E3A25;
+    --verde_medio: #399b3ef6;
+    --verde_claro: #2ad100d8;
+    --cinza_claro: #E7E5E8;
+    --cinza_medio: #8b8b92c9;
+    --cinza_escuro: #5A6872;
+
+}
+
+html, body{
+    height: 100vh;
+
+}
