@@ -176,14 +176,19 @@ header > div > aside{
     margin-top: 10px;
 }
 
-div#feito{
-    text-align: center;
+
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
+
 .feito-por{
     border: 1px solid black;
     text-align: center;
     width: 160px;
-    margin-top: 5px;
+    margin-top: 5px;    
 }
 
 .videos > video{

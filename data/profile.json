@@ -1,0 +1,43 @@
+{
+  "tatuadora": {
+    "name": "Renan J Paula",
+    "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+    "location": "São Paulo - SP",
+    "phone": "(16) 98159-7656",
+    "email": "key@meuamorzinho.com"
+  },
+  "Conteudos": {
+    "postagens": [
+      {
+        "titulo": "A criação de Adão",
+        "foto": "https://raw.githubusercontent.com/Joannegton/portifolio_key/main/imagens/tattoo1-300.png",
+        "descricao": "O sentido da arte é explicar que Deus esta sempre lá, mas a decisão de buscá - lo é do homem. Se o homem quiser tocar em Deus, precisará esticar o dedo, mas não esticando, poderá passar uma vida inteira sem buscá - lo. A última falange do dedo de Adão contraída representa o LIVRE ARBÍTRIO.",
+        "data": "12/03/2023"
+      },
+      {
+        "titulo": "A criação de Adão",
+        "foto": "https://raw.githubusercontent.com/Joannegton/portifolio_key/main/imagens/tattoo1-300.png",
+        "descricao": "O sentido da arte é explicar que Deus esta sempre lá, mas a decisão de buscá - lo é do homem. Se o homem quiser tocar em Deus, precisará esticar o dedo, mas não esticando, poderá passar uma vida inteira sem buscá - lo. A última falange do dedo de Adão contraída representa o LIVRE ARBÍTRIO.",
+        "data": "12/03/2023"
+      },
+      {
+        "titulo": "A criação de Adão",
+        "foto": "https://raw.githubusercontent.com/Joannegton/portifolio_key/main/imagens/tattoo1-300.png",
+        "descricao": "O sentido da arte é explicar que Deus esta sempre lá, mas a decisão de buscá - lo é do homem. Se o homem quiser tocar em Deus, precisará esticar o dedo, mas não esticando, poderá passar uma vida inteira sem buscá - lo. A última falange do dedo de Adão contraída representa o LIVRE ARBÍTRIO.",
+        "data": "12/03/2023"
+      },
+      {
+        "titulo": "A criação de Adão",
+        "foto": "https://raw.githubusercontent.com/Joannegton/portifolio_key/main/imagens/tattoo1-300.png",
+        "descricao": "O sentido da arte é explicar que Deus esta sempre lá, mas a decisão de buscá - lo é do homem. Se o homem quiser tocar em Deus, precisará esticar o dedo, mas não esticando, poderá passar uma vida inteira sem buscá - lo. A última falange do dedo de Adão contraída representa o LIVRE ARBÍTRIO.",
+        "data": "12/03/2023"
+      }
+    ],
+    "curiosidades": [
+      {"titulo": "Qual pomada uzar?",
+      "foto": "https://raw.githubusercontent.com/Joannegton/portifolio_key/main/imagens/tattoo1-300.png",
+      "descricao": "Use uma pomada",
+      }
+    ]
+  }
+}
