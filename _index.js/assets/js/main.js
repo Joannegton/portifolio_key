@@ -15,7 +15,25 @@ function updateImagem(dados){
 
 }
 
+function updatePost(dados){
+    const documento = document.querySelector('.page')
+    documento.innerHTML = dados.Conteudos.postagens.map
+    (post => 
+        `
+        <article class="post">
+            <img src="${post.foto}" alt="${post.titulo}" class="photo">
+            <h3>${post.titulo}</h3>
+            <p>${post.descricao}</p>
+            <div class="feito">
+                <p>Feito em:${post.data}</p>
+            </div>
+        </article>    
+        `)
+        .join('')
+}
+
 (async () => {
     const dados = await request()
-    updateImagem(dados)
+ 
+    updatePost(dados)
 })()
