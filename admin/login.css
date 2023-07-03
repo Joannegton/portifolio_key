@@ -139,35 +139,12 @@ form> a.botao > span{
     font-size: 0.9em; 
 }
 
-
-/* Postagens */
-section.postagens{
-    background-color: rgba(0, 255, 55, 0.438);
-    width: 90vw;
-    margin: auto;
-}
-form#postagens{
-    border: 1px solid black;
-    text-align: center;
-    margin: auto;
-    width: 90%;
-}
-
-form > input#titulo{
-    width: 70%;
-    height: 25px;
-}
-form > input#descricao{
+@media screen and (min-width: 768px) {
     
-    width: 70%;
-    height: 300px;
+section#login{
+    width: 70vw;
+    height: 470px;
 }
-form#postagens > label{
-    display: block;
-}
-form#postagens > input#foto{
-    margin: auto;
-    display: block;
-    width: 200px;
-    background-color: aqua;
+
+
 }
